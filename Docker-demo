@@ -9,7 +9,7 @@ docker ps                        (to see running containers)
 docker ps -a                      (to see all containers)
 docker run -it test-container containerID                    (to run and login in the container)
 docker run -it --name test-container containerID           (to give name of container and run the container)
-docker run -dt --name test-conatiner conatinerID            (to run container without login)
+docker run -dt --name test-conatiner conatinerID            (to give name of container and run container without login)
 docker exec -it containerID /bin/bash                       (to login running container)
 cntrl pq                      (To exit from the running container without stopping)
 docker system df -v
